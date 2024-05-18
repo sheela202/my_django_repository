@@ -14,7 +14,7 @@ from . models import UserProfile
 from . forms import UserProfileForm,UserForm
 from django.contrib.auth.decorators import login_required
 # Create your views here.
-
+# hello 
 def register(request):
     if request.method == 'POST':
         form=RegistrationForm(request.POST) 
