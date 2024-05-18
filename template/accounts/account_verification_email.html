@@ -1,0 +1,6 @@
+Hi {{ user.first_name }}
+
+Please click on below link,to confirm your registration, please login with the username-{{user.username}}
+<a href="http://{{ domain }}{% url 'activate' uidb64=uid token=token %}">activate</a>
+
+if you think its not you, please ignore the email
